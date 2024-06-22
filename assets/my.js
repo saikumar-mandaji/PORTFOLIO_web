@@ -104,9 +104,11 @@ function submitForm() {
 
   // Alert.style.display = 'none';
   // Clear form inputs
+  
   document.getElementById('name').value = '';
   document.getElementById('email').value = '';
   document.getElementById('message').value = '';
+
 
   return false; // Prevent form submission
 }
